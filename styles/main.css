@@ -1,3 +1,19 @@
 body {
     background-color: darkolivegreen;
 }
+
+#store {
+    border: 2px solid brown;
+  }
+  
+  #cart {
+    border: 2px solid chartreuse;
+  }
+  
+  #store button {
+    margin: 10px;
+  }
+  
+  .book-image {
+    width: 300px;
+  }
