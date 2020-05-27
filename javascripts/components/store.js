@@ -1,5 +1,6 @@
 import bookData from '../helpers/data/bookData.js';
 import utils from '../helpers/utils.js';
+import cart from './cart.js';
 
 // bookData.getBook();
 
