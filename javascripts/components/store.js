@@ -25,6 +25,8 @@ const makeStore = () => {
     utils.printToDom("#store", domString);
     console.log(bookInfo);
     document.querySelector('#add-to-cart').addEventListener('click', addToCartEvent);
+    //$('body').on('click')
+    $('#add-to-cart').click(addToCartEvent);
 }
 
 export default { makeStore };
